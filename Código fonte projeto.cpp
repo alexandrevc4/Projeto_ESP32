@@ -18,7 +18,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 const char *ssid     = "Alexandre";
-const char *password = "10203040";
+const char *password = "Senha_do_wifi";
 
 // === Estados ===
 bool lampState[6] = {false, false, false, false, false, false};
@@ -212,3 +212,4 @@ void handleClient() {
     Serial.println("Cliente desconectado");
   }
 }
+
